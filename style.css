@@ -1,0 +1,67 @@
+	 .segundo-h1{
+	 	  Color :red; border : 1px solid blue; 
+	 	}
+	 #primeiro-id {
+	 	Color :green; border : 1px solid blue;
+	 }
+	 #segundo-id {
+	 	Color :yellow; border : 1px solid blue;
+	 }
+
+
+	 main {
+      font-size: 16px;
+     font-family:Arial,sans-serif ;
+	 }
+
+	 .conteiner {
+
+      background-color: #333;
+      color: #eee;
+      width: 80%;
+      box-sizing: border-box;
+
+      margin: auto;
+     /* padding-top: 50px; 
+     padding-right: 50px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+    */
+   padding: 50px;/* mesma coisa que acimma medida  */
+     
+
+     border-left:10px solid rgb(0, 0, 255);
+      border-top: 10px solid red;
+      border-right:14px solid rgb(0, 0, 280);;
+      border-bottom: 15px  solid rgb(240,230,140);
+   
+ }
+
+.aside-main h2{
+	text-align: center;
+}
+ .aside-main ul{
+ 	list-style: none;
+   text-align: center;
+   padding: 0;
+
+ }
+
+
+ .aside-main ul a {
+  text-decoration: none;
+  color: black;
+}
+.aside-main ul a:hover {
+	color: red;
+}
+
+.main-form{
+	padding-left:20px ;
+}
+.main-form .form-group{
+
+
+padding-bottom: 10px;
+
+}
