@@ -20,20 +20,21 @@
       color: #eee;
       width: 80%;
       box-sizing: border-box;
-
+      
       margin: auto;
      /* padding-top: 50px; 
      padding-right: 50px;
      padding-bottom: 50px;
      padding-left: 50px;
     */
-   padding: 50px;/* mesma coisa que acimma medida  */
+   padding: 60px;/* mesma coisa que s medida acima  */
      
 
      border-left:10px solid rgb(0, 0, 255);
       border-top: 10px solid red;
       border-right:14px solid rgb(0, 0, 280);;
       border-bottom: 15px  solid rgb(240,230,140);
+       border: 15px  solid rgb(240,230,140);
    
  }
 
@@ -64,14 +65,16 @@
 
 .main-form{
 	padding-left:20px ;
+;
 }
 .main-form .form-group{
   padding-bottom: 10px;
 
 }
 
-.main-form .form-group input {
-padding: 10px;
+.main-form .form-group input{
+  padding: 08px;
+    width: 100%
 
 }
 
@@ -84,6 +87,76 @@ padding: 10px;
 .button {
 	  cursor: pointer;
       background-color: #333;
-	padding: 15px;
-	color:white;
+	  padding: 15px;
+	 color:white;
+}
+
+.box{
+  width: 80%;
+  margin: auto;
+
+}
+
+
+
+.relative {
+  padding: 10px;
+  position: relative;
+  border: 3px solid #333;
+  height: 200px;
+ 
+}
+
+
+.relative .absolute {
+  position: absolute;
+  bottom:0 ;
+
+}
+.relative .absolute h1{
+  margin: 0; 
+}
+
+
+/*Barra de navegação*/
+
+#main-navbar{
+
+background: #333;
+color: #eee;
+padding: 10px;
+text-align: center;
+margin-bottom: 10px;
+position: sticky;
+top:0;
+}
+
+.fixed-botton{
+  background: #32cd32;
+  color: #eee;
+ margin-top: 5px;
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ margin: 20px;
+}
+
+.categoria ul{
+list-style: none;
+}
+
+/*.categoria ul li:first-child {
+  color: red;
+}
+.categoria ul li:last-child {
+color: green;
+}*/
+.categoria ul li:nth-child(even){
+  color: orange;
+} 
+.categoria ul li:nth-child(odd){
+  color:blue;
 }
